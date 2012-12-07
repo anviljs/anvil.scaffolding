@@ -2,7 +2,6 @@ var path = require( "path" );
 var scaffolds = function( _, anvil ) {
 
 	var root = path.resolve( __dirname, "../" );
-	console.log( root );
 
 	anvil.scaffold( {
 		type: "npmExt",
