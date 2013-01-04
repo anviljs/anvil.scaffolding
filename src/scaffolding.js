@@ -110,6 +110,27 @@ var scaffolds = function( _, anvil ) {
 		}
 	} );
 
+
+	anvil.scaffold( {
+		type: "scaffold",
+		description: "creates a new scaffold file for the current extension",
+		prompt: [
+			{
+				name: "scaffold-type",
+				description: "Type of scaffold",
+				required: true
+			},
+			{
+				name: "scaffold-description",
+				description: "Scaffold description",
+				required: true
+			}
+		],
+		output: {
+			"src/{{{scaffold-type}}}.js": anvil.scaffold.file( root + "/templates/scaffold.js" )
+		}
+	} );
+
 };
 
 module.exports = scaffolds;

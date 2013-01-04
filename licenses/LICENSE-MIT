@@ -1,4 +1,4 @@
-Copyright (c) 2012 Alex Robson (the "Original Author")
+Copyright (c) 2012 {{{author}}} (the "Original Author")
 All rights reserved.
 
 MIT
@@ -37,8 +37,3 @@ OTHER DEALINGS IN THE SOFTWARE.
 Except where noted, this license applies to any and all software
 programs and associated documentation files created by the
 Original Author, when distributed with the Software.
-
-Extensions to Anvil, published in the npm registry (other than the Software and
-its included dependencies) are not part of Anvil itself, are the sole
-property of their respective maintainers, and are not covered by
-this license.
